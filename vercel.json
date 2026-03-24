@@ -1,5 +1,7 @@
 {
   "version": 2,
+  "buildCommand": "ng build",
+  "outputDirectory": "dist/aileen-gel-blaster/browser",
   "rewrites": [
     { "source": "/(.*)", "destination": "/index.html" }
   ]
