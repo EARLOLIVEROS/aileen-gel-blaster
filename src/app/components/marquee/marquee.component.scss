@@ -1,5 +1,5 @@
 .marquee-wrap {
-  background: var(--green);
+  background: var(--green-dim1);
   overflow: hidden;
   padding: 20px 0;
 }
@@ -17,8 +17,8 @@
 
 .marquee-item {
   font-family: 'Rajdhani', sans-serif;
-  font-weight: 700;
-  font-size: 0.85rem;
+  font-weight: 600;
+  font-size: 1.25rem;
   letter-spacing: 3px;
   text-transform: uppercase;
   color: #000;
