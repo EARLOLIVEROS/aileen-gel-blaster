@@ -1,0 +1,17 @@
+<section class="whyus" id="whyus">
+  <div class="section-inner">
+    <p class="section-tag">⬡ Why Choose Us</p>
+    <h2 class="section-title">Precision & Power</h2>
+    <div class="section-divider"></div>
+
+    <div class="whyus-grid">
+      @for (item of items; track item.num) {
+        <div class="why-card">
+          <div class="why-num">{{ item.num }}</div>
+          <h4>{{ item.title }}</h4>
+          <p>{{ item.description }}</p>
+        </div>
+      }
+    </div>
+  </div>
+</section>

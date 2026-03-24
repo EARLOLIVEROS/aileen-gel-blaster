@@ -1,0 +1,32 @@
+.marquee-wrap {
+  background: var(--green);
+  overflow: hidden;
+  padding: 20px 0;
+}
+
+.marquee-track {
+  display: flex;
+  white-space: nowrap;
+  animation: marquee 20s linear infinite;
+}
+
+@keyframes marquee {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+.marquee-item {
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: 700;
+  font-size: 0.85rem;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #000;
+  padding: 0 28px;
+}
+
+.marquee-dot {
+  font-size: 0.6rem;
+  color: rgba(0, 0, 0, 0.35);
+  align-self: center;
+}

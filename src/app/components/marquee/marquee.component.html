@@ -1,0 +1,8 @@
+<div class="marquee-wrap">
+  <div class="marquee-track">
+    @for (item of doubledItems; track $index) {
+      <span class="marquee-item">{{ item }}</span>
+      <span class="marquee-dot">◆</span>
+    }
+  </div>
+</div>

@@ -1,0 +1,57 @@
+.whyus {
+  padding: 80px 5%;
+  background: var(--dark);
+}
+
+.whyus-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.why-card {
+  background: var(--card);
+  border-left: 3px solid var(--green);
+  padding: 24px 20px;
+  transition: background 0.2s;
+
+  &:hover {
+    background: var(--card2);
+  }
+}
+
+.why-num {
+  font-family: 'Orbitron', monospace;
+  font-size: 2rem;
+  font-weight: 900;
+  color: var(--green-dark);
+  margin-bottom: 10px;
+  line-height: 1;
+}
+
+h4 {
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #fff;
+  margin-bottom: 8px;
+}
+
+p {
+  font-size: 0.85rem;
+  color: var(--muted);
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  .whyus {
+    padding: 60px 6%;
+  }
+
+  .whyus-grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+}

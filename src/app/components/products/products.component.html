@@ -1,0 +1,37 @@
+<section class="products" id="products">
+  <div class="section-inner">
+    <p class="section-tag">⬡ What We Sell</p>
+    <h2 class="section-title">Product Categories</h2>
+    <div class="section-divider"></div>
+
+    <div class="product-grid">
+      @for (cat of categories; track cat.id) {
+        <div class="product-card">
+          @if (cat.badge) {
+            <div class="product-badge">{{ cat.badge }}</div>
+          }
+          <div class="product-icon">
+            <!-- gun -->
+            @if (cat.icon === 'gun') {
+              <svg viewBox="0 0 24 24"><path d="M2 10h13v2H2v-2zm15-4l4 4-4 4v-3h-2V9h2V6zm-5 10H2v-2h10v2z"/></svg>
+            }
+            <!-- ammo -->
+            @if (cat.icon === 'ammo') {
+              <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3.5"/><circle cx="12" cy="12" r="8" fill="none" stroke="currentColor" stroke-width="1.5"/><circle cx="12" cy="4.5" r="1.2"/><circle cx="12" cy="19.5" r="1.2"/><circle cx="4.5" cy="12" r="1.2"/><circle cx="19.5" cy="12" r="1.2"/></svg>
+            }
+            <!-- gear -->
+            @if (cat.icon === 'gear') {
+              <svg viewBox="0 0 24 24"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+            }
+            <!-- parts -->
+            @if (cat.icon === 'parts') {
+              <svg viewBox="0 0 24 24"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3-3a1 1 0 0 0 0-1.4l-1.6-1.6a1 1 0 0 0-1.4 0l-3 3zM3 17v3h3l9.6-9.6-3-3L3 17z"/></svg>
+            }
+          </div>
+          <h3>{{ cat.title }}</h3>
+          <p>{{ cat.description }}</p>
+        </div>
+      }
+    </div>
+  </div>
+</section>

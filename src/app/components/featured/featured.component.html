@@ -1,0 +1,33 @@
+<section class="featured" id="featured">
+  <div class="section-inner">
+    <p class="section-tag">⬡ Top Picks</p>
+    <h2 class="section-title">Featured Products</h2>
+    <div class="section-divider"></div>
+
+    <div class="featured-grid">
+      @for (product of products; track product.id) {
+        <div class="featured-card">
+          <div class="featured-img">
+            @if (product.image) {
+              <img [src]="product.image" [alt]="product.name" class="product-img" />
+            } @else {
+              <div class="featured-img-slug">{{ product.slug }}</div>
+            }
+            @if (product.tag) {
+              <div class="featured-tag">{{ product.tag }}</div>
+            }
+          </div>
+          <div class="featured-body">
+            <h3>{{ product.name }}</h3>
+            <p>{{ product.description }}</p>
+            <div class="featured-price">
+              ₱{{ product.price | number }}
+              <span>{{ product.unit }}</span>
+            </div>
+            <button class="order-btn" (click)="scrollToOrder()">Order Now →</button>
+          </div>
+        </div>
+      }
+    </div>
+  </div>
+</section>
