@@ -10,9 +10,9 @@ import { CommonModule } from '@angular/common';
 })
 export class HeroComponent {
   stats = [
-    { num: 'Fast', label: 'Shipping' },
-    { num: 'COD', label: 'Available' },
-    { num: '24/7', label: 'Support' },
+    { num: 'FAST', label: 'Shipping' },
+    { num: 'COD', label: 'Via Lalamove' },
+    { num: '24/7', label: 'Customer Support' },
   ];
 
   scrollTo(sectionId: string): void {
