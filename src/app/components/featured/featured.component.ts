@@ -14,7 +14,7 @@ export class FeaturedComponent {
   {
     id: 1,
     name: 'Cyma m4 v2 High-End Unit',
-    description: '🗹Metal gear 🗹Metal tube 🗹Prime Magazine 🗹Adjustable butt 🗹Free Scope 🗹Free Gel 🗹Free Charger 🗹Free holo sight 🗹Free Mini Hop up',
+    description: 'Full metal gears, metal inner & outer barrel, and metal tube for durability. High-end metal mag, fully upgradable. Includes FREE gel battery charger.',
     price: 1299,
     unit: '+ shipping',
     tag: 'Hot',
@@ -24,7 +24,7 @@ export class FeaturedComponent {
   {
     id: 2,
     name: 'tg SLR V2',
-    description: '🗹METAL GEAR 🗹METAL INNER/OUTER BARREL 🗹METAL TUBE 🗹METAL MAG HIGH END UPGRADABLE  🗹FREE GEL BATTERY CHARGER',
+    description: 'Full metal gears, metal inner & outer barrel, metal tube, and metal mag. High-end and fully upgradable. Includes FREE gel battery charger.',
     price: 1499,
     unit: '+ shipping',
     tag: 'Popular',
@@ -34,7 +34,7 @@ export class FeaturedComponent {
   {
     id: 3,
     name: 'Bohan mk8 v2',
-    description: '🗹METAL GEAR 🗹METAL INNER/OUTER BARREL 🗹METAL TUBE 🗹METAL MAG HIGH END UPGRADABLE  🗹FREE GEL BATTERY CHARGER',
+    description: 'Metal gears, metal tube, prime mag, high-end and upgradable. Includes FREE gel battery charger and holo sight.',
     price: 2000,
     unit: '+ shipping',
     tag: 'New',
@@ -44,7 +44,7 @@ export class FeaturedComponent {
   {
     id: 4,
     name: 'JINGJI SLR V5',
-    description: '🗹METAL GEAR 🗹METAL INNER/OUTER BARREL 🗹METAL TUBE 🗹METAL MAG HIGH END UPGRADABLE  🗹FREE GEL BATTERY CHARGER',
+    description: 'Metal gears, metal gearbox, metal barrel, bolt catch, and blowback. Includes prime & long mag, metal muzzle. Premium, upgradable unit with gel battery charger.',
     price: 2000,
     unit: '+ shipping',
     slug: 'AMMO',

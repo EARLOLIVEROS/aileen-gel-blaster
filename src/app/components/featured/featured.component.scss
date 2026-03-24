@@ -14,10 +14,23 @@
   border: 1px solid var(--border);
   overflow: hidden;
   transition: border-color 0.2s;
+  display: flex;
+  flex-direction: column;
 
   &:hover {
     border-color: var(--green);
   }
+}
+
+.featured-img {
+  width: 100%;
+  height: 240px;
+  background: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
 }
 
 .product-img {
@@ -26,6 +39,11 @@
   object-fit: contain;
   object-position: center;
   padding: 12px;
+  transition: transform 0.3s ease;
+}
+
+.featured-card:hover .product-img {
+  transform: scale(1.08);
 }
 
 .featured-img-slug {
@@ -52,6 +70,9 @@
 
 .featured-body {
   padding: 20px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
 
   h3 {
     font-family: 'Rajdhani', sans-serif;
@@ -68,6 +89,7 @@
     color: var(--muted);
     margin-bottom: 16px;
     line-height: 1.6;
+    flex: 1;
   }
 }
 
@@ -118,5 +140,6 @@
 
   .featured-img {
     height: 200px;
+    background: #ffffff;
   }
 }
