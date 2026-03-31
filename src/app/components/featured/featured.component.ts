@@ -14,7 +14,7 @@ export class FeaturedComponent {
   {
     id: 1,
     name: 'Cyma m4 v2 High-End Unit',
-    description: 'Full metal gears, metal inner & outer barrel, and metal tube for durability. High-end metal mag, fully upgradable. Includes FREE gel battery charger.',
+    description: 'Full metal gears, metal inner & outer barrel, and metal tube for durability. High-end metal mag, fully upgradable. Includes FREE gel battery charger (240fps).',
     price: 3500,
     unit: '+ shipping',
     tag: 'Hot',
@@ -24,41 +24,340 @@ export class FeaturedComponent {
   {
     id: 2,
     name: 'tg SLR V2',
-    description: 'Full metal gears, metal inner & outer barrel, metal tube, and metal mag. High-end and fully upgradable. Includes FREE gel battery charger.',
+    description: 'Full metal gears, metal inner & outer barrel, metal tube, and metal mag. High-end and fully upgradable. Includes FREE gel battery charger (270fps).',
     price: 3800,
     unit: '+ shipping',
     tag: 'Popular',
     slug: 'AKM',
-    image: 'products/a.jfif'
+    image: 'products/gb8.jfif'
   },
   {
     id: 3,
     name: 'Bohan MK8 v2',
-    description: 'Metal gears, metal tube, prime mag, high-end and upgradable. Includes FREE gel battery charger and holo sight.',
+    description: 'Metal gears, metal tube, prime mag, high-end and upgradable. Includes FREE gel battery charger and holo sight (250fps).',
     price: 3500,
     unit: '+ shipping',
     tag: 'New',
     slug: 'GLK',
-    image: 'products/d.jfif'
+    image: 'products/gb9.jfif'
   },
   {
     id: 4,
     name: 'JINGJI SLR V5',
-    description: 'Metal gears, metal gearbox, metal barrel, bolt catch, and blowback. Includes prime & long mag, metal muzzle. Premium, upgradable unit with gel battery charger.',
+    description: 'Metal gears, metal gearbox, metal barrel, bolt catch, and blowback. Includes prime & long mag, metal muzzle. Premium, upgradable unit with gel battery charger (270fps).',
     price: 8900,
     unit: '+ shipping',
     slug: 'AMMO',
-    image: 'products/c.jfif'
+    image: 'products/gb28.jfif'
   },
   {
-    id: 4,
+    id: 5,
     name: 'PDX V4',
-    description: 'Metal gears, metal gearbox, metal barrel, bolt catch, and blowback. Includes prime & long mag, metal muzzle. Premium, upgradable unit with gel battery charger.',
+    description: 'Metal gears, metal gearbox, metal barrel, and blowback. Upgradable unit with gel, 11.1v Battery and Charger (270fps).',
     price: 5300,
     unit: '+ shipping',
     slug: 'AMMO',
     image: 'products/b.jfif'
-  }
+  },
+  {
+    id: 6,
+    name: 'BOHAN AR SNIPER',
+    description: 'Metal gears, metal inner and outer barrel, and blowback.Includes Metal muzzle. Upgradable unit with gel battery charger (240fps).',
+    price: 8900,
+    unit: '+ shipping',
+    slug: 'AMMO',
+    image: 'products/gb1.jfif'
+  },
+  {
+    id: 7,
+    name: 'BOHAN HK416D V2',
+    description: 'Metal gears, metal tube, prime mag, high-end and upgradable. Includes FREE gel battery charger and holo sight (240fps).',
+    price: 3500,
+    unit: '+ shipping',
+    slug: 'AMMO',
+    image: 'products/gb2.jfif'
+  },
+  {
+    id: 8,
+    name: 'BOHAN AR15 V2',
+    description: 'Metal gears, metal tube, prime mag, high-end and upgradable. Includes FREE gel battery charger and holo sight (240fps).',
+    price: 3600,
+    unit: '+ shipping',
+    slug: 'AMMO',
+    image: 'products/gb24.jfif'
+  },
+  {
+    id: 9,
+    name: 'BOHAN M4A1 V2',
+    description: 'Metal gears, metal tube, prime mag, high-end and upgradable. Includes FREE gel battery charger and holo sight (240fps).',
+    price: 3500,
+    unit: '+ shipping',
+    slug: 'AMMO',
+    image: 'products/gb19.jfif'
+  },
+  {
+    id: 10,
+    name: 'F1 BLAZE V4',
+    description: 'Metal gears, metal gear box, cnc metal, Auto Prime Magazine, metal tube, high-end and upgradable. Includes FREE Gel *No battery and charger included (260fps).',
+    price: 8300,
+    unit: '+ shipping',
+    slug: 'AMMO',
+    image: 'products/gb3.jfif'
+  },
+  {
+    id: 11,
+    name: 'CYMA M4A1 V2 SAND',
+    description:'Full metal gears, metal inner & outer barrel, and metal tube for durability. High-end metal mag, fully upgradable. Includes FREE gel battery charger (240fps).',
+    price: 3500,
+    unit: '+ shipping',
+    slug: 'AMMO',
+    image: 'products/gb4.jfif'
+  },
+  {
+    id: 12,
+    name: 'TG MCX V2',
+    description: 'Metal gears, metal inner/outer Barrel, metal tube, Pressure spring prime mag, high-end and upgradable. Includes FREE Gel, Battery charger, holo sight, and Metal muzzle (260fps).',
+    price: 3600,
+    unit: '+ shipping',
+    slug: 'AMMO',
+    image: 'products/gb5.jfif'
+  },
+  {
+    id: 13,
+    name: 'TG MCX V2 METAL MAG',
+    description: 'Metal gears, metal inner/outer Barrel, metal tube, Metal prime mag, high-end and upgradable. Includes FREE Gel, Battery charger, holo sight, and Metal muzzle (260fps).',
+    price: 3600,
+    unit: '+ shipping',
+    slug: 'AMMO',
+    image: 'products/gb31.jfif'
+  },
+  {
+    id: 14,
+    name: 'CYMMA MP5 V2',
+    description: 'Metal gears, metal inner/outer Barrel, metal tube, Prime mag, high-end and upgradable. Includes FREE Gel, Battery charger, Extra Butt and Round Mag (240fps).',
+    price: 3600,
+    unit: '+ shipping',
+    slug: 'AMMO',
+    image: 'products/gb7.jfif'
+  },
+  {
+    id: 15,
+    name: 'TG MP5L V2',
+    description: 'Metal gears, metal inner/outer Barrel, metal tube, Prime mag, high-end and upgradable. Includes FREE Gel, Battery charger (240fps).',
+    price: 3600,
+    unit: '+ shipping',
+    slug: 'AMMO',
+    image: 'products/gb10.jfif'
+  },
+  {
+    id: 16,
+    name: 'TG ARP9 V4',
+    description: 'Metal gears, metal inner/outer Barrel, metal tube, Prime mag, high-end and upgradable. Includes FREE Gel, Battery charger (260fps).',
+    price: 3600,
+    unit: '+ shipping',
+    slug: 'AMMO',
+    image: 'products/gb11.jfif'
+  },
+  {
+    id: 17,
+    name: 'TG G36C V2',
+    description: 'Metal gears, metal inner/outer Barrel, metal tube, Prime mag, high-end and upgradable. Includes FREE Gel, Battery charger (260fps).',
+    price: 3800,
+    unit: '+ shipping',
+    slug: 'AMMO',
+    image: 'products/gb12.jfif'
+  },
+  {
+    id: 18,
+    name: 'STEN MK2',
+    description: 'Metal gears,Metal gearbox, metal inner/outer Barrel, metal tube, Prime mag, high-end and upgradable. Includes FREE Gel, Battery charger (240fps).',
+    price: 8000,
+    unit: '+ shipping',
+    slug: 'AMMO',
+    image: 'products/gb14.jfif'
+  },
+  {
+    id: 19,
+    name: 'TG DDMPDW V2',
+    description: 'Metal gears,Metal gearbox, metal inner/outer Barrel, metal tube, Prime mag. Includes FREE Gel, Battery charger (250fps).',
+    price: 3000,
+    unit: '+ shipping',
+    slug: 'AMMO',
+    image: 'products/gb15.jfif'
+  },
+  {
+    id: 20,
+    name: 'TG ARP9 V2',
+    description: 'Metal gears, metal inner/outer Barrel, metal tube, Prime mag, high-end and upgradable. Includes FREE Gel, Battery charger (260fps).',
+    price: 3300,
+    unit: '+ shipping',
+    slug: 'AMMO',
+    image: 'products/gb20.jfif'
+  },
+  {
+    id: 21,
+    name: 'TG MP5 SHORT',
+    description: 'Nylon Gear, Not upgradable (250fps).',
+    price: 2500,
+    unit: '+ shipping',
+    slug: 'AMMO',
+    image: 'products/gb22.jfif'
+  }, 
+  {
+    id: 22,
+    name: 'BOHAN MK8 V5',
+    description: 'Metal gears, Metal gearbox, metal inner/outer Barrel, metal tube, Prime mag, Metal Mag high-end and upgradable, 80% Metal. Includes FREE Gel, Battery charger (250fps).',
+    price: 5800,
+    unit: '+ shipping',
+    slug: 'AMMO',
+    image: 'products/gb23.jfif'
+  },
+  {
+    id: 23,
+    name: 'BOHAN HK416D V5',
+    description: 'Metal gears, Metal gearbox, metal inner/outer Barrel, metal tube, Prime mag, Metal Mag high-end and upgradable, 80% Metal. Includes FREE Gel, Battery charger (250fps).',
+    price: 5300,
+    unit: '+ shipping',
+    slug: 'AMMO',
+    image: 'products/gb30.jfif'
+  },
+  {
+    id: 23,
+    name: 'SUGE PDX',
+    description: 'Metal gears, Metal gearbox V2, metal inner/outer Barrel, metal tube, Prime mag, high-end and upgradable. Includes FREE Gel, Battery charger (250fps).',
+    price: 6600,
+    unit: '+ shipping',
+    slug: 'AMMO',
+    image: 'products/gb26.jfif'
+  },
+  {
+    id: 24,
+    name: 'SIJUN TR1 V2',
+    description: 'Metal gears, metal tube, Prime mag, high-end and upgradable. Includes FREE Gel, Battery charger (250fps).',
+    price: 3600,
+    unit: '+ shipping',
+    slug: 'AMMO',
+    image: 'products/gb27.jfif'
+  },
+  {
+    id: 25,
+    name: 'FJS BLP MOSFET',
+    description: 'Metal gears,Metal Gearbox, metal tube, auto Prime mag, Mosfet high-end and upgradable. Includes FREE Gel, Battery charger (260fps).',
+    price: 8500,
+    unit: '+ shipping',
+    slug: 'AMMO',
+    image: 'products/gb29.jfif'
+  },
+  {
+    id: 26,
+    name: 'SIJUN HK416D V3',
+    description: 'Metal gears,Metal Gearbox, metal tube, metal mag, high-end and upgradable. Includes FREE Gel, Battery charger (260fps).',
+    price: 8300,
+    unit: '+ shipping',
+    slug: 'AMMO',
+    image: 'products/gb32.jfif'
+  },
+  {
+    id: 27,
+    name: 'SIJUN MK18 V4',
+    description: 'Metal gears,Metal Gearbox, metal tube, metal mag, Mosfet high-end and upgradable. Includes FREE Gel, Battery charger (260fps).',
+    price: 8300,
+    unit: '+ shipping',
+    slug: 'AMMO',
+    image: 'products/gb33.jfif'
+  },
+  {
+    id: 28,
+    name: 'LT NOVESKE V4',
+    description: 'Metal gears,Metal Gearbox, metal tube, Prime mag, Mosfet high-end and upgradable. Includes FREE Gel, Battery charger (260fps).',
+    price: 8300,
+    unit: '+ shipping',
+    slug: 'AMMO',
+    image: 'products/gb34.jfif'
+  },
+  {
+    id: 29,
+    name: 'FJS HK416D V4',
+    description: 'Metal gears,Metal Gearbox, metal tube, Prime mag, Mosfet high-end and upgradable. Includes FREE Gel, Battery charger (260fps).',
+    price: 8700,
+    unit: '+ shipping',
+    slug: 'AMMO',
+    image: 'products/gb35.jfif'
+  },
+  {
+    id: 30,
+    name: 'WD PDX V2',
+    description: 'Metal gears, metal tube, Prime mag, high-end and upgradable. Includes FREE Gel, Battery charger and Holo sight (250fps).',
+    price: 3500,
+    unit: '+ shipping',
+    slug: 'AMMO',
+    image: 'products/gb36.jfif'
+  },
+  {
+    id: 31,
+    name: 'WD PDX V3',
+    description: 'Metal gears, Metal gearbox, metal tube, Prime mag, high-end and upgradable. Includes FREE Gel, Battery charger and Holo sight (260fps).',
+    price: 4850,
+    unit: '+ shipping',
+    slug: 'AMMO',
+    image: 'products/gb37.jfif'
+  },
+  {
+    id: 32,
+    name: 'BOHAN TEC9',
+    description: 'Metal gears, Metal gearbox, metal tube, Prime mag, Mosfet high-end and upgradable, 80% Metal. Includes FREE Gel, Battery charger and Holo sight (260fps).',
+    price: 6500,
+    unit: '+ shipping',
+    slug: 'AMMO',
+    image: 'products/gb39.jfif'
+  },
+  {
+    id: 33,
+    name: 'TG F4 V2',
+    description: 'Metal gears, Metal mag, metal tube, metal inner/outer barrel, Prime mag, *Not upgradable. Includes FREE Gel, Battery charger and Holo sight (250fps).',
+    price: 3000,
+    unit: '+ shipping',
+    slug: 'AMMO',
+    image: 'products/gb38.jfif'
+  },
+  {
+    id: 34,
+    name: 'EVO UZI',
+    description: 'Nylon, *Not upgradable.(200fps).',
+    price: 3000,
+    unit: '+ shipping',
+    slug: 'AMMO',
+    image: 'products/gb40.jfif'
+  },
+  {
+    id: 35,
+    name: 'G22',
+    description: 'Metal Gear.(200fps).',
+    price: 5300,
+    unit: '+ shipping',
+    slug: 'AMMO',
+    image: 'products/gb42.jfif'
+  },
+  {
+    id: 36,
+    name: 'FJS M4 V3',
+    description: 'Metal gears,Metal Gearbox, metal tube, Prime mag, high-end and upgradable, 80% Metal. Includes FREE Gel, Battery charger (260fps).',
+    price: 8300,
+    unit: '+ shipping',
+    slug: 'AMMO',
+    image: 'products/gb43.jfif'
+  },
+  {
+    id: 37,
+    name: 'CYMMA AK47',
+    description: 'Metal gears, metal tube, Prime mag, high-end and upgradable. Includes FREE Gel, Battery charger (250fps).',
+    price: 4500,
+    unit: '+ shipping',
+    slug: 'AMMO',
+    image: 'products/gb44.jfif'
+  },
+  
+
 ];
 
   scrollToOrder(): void {

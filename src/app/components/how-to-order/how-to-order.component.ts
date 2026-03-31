@@ -16,7 +16,7 @@ interface Step {
 })
 export class HowToOrderComponent {
   // TODO: Replace with actual Facebook page Messenger link
-  messengerUrl = 'https://www.facebook.com/aileen.oliveros.2024';
+  messengerUrl = 'https://www.facebook.com/share/173cq6yAm4/';
 
   steps: Step[] = [
     {
