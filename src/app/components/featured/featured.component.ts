@@ -179,11 +179,11 @@ export class FeaturedComponent {
   {
     id: 19,
     name: 'TG DDMPDW V2',
-    description: 'Metal gears,Metal gearbox, metal inner/outer Barrel, metal tube, Prime mag. Includes FREE Gel, Battery charger (250fps).',
+    description: 'Metal gears, metal inner/outer Barrel, metal tube, Prime mag.*Not Upgradable. Includes FREE Gel, Battery charger (250fps).',
     price: 3000,
     unit: '+ shipping',
     slug: 'AMMO',
-    image: 'products/gb15.jfif'
+    image: 'products/gb17.jfif'
   },
   {
     id: 20,
@@ -356,8 +356,114 @@ export class FeaturedComponent {
     slug: 'AMMO',
     image: 'products/gb44.jfif'
   },
-  
-
+  {
+    id: 38,
+    name: 'SQB GREEN',
+    description: 'Metal gears, metal tube, Prime mag, high-end and upgradable, CNC Metal. Includes FREE Gel, 11V Battery charger (260fps).',
+    price: 7900,
+    unit: '+ shipping',
+    slug: 'AMMO',
+    image: 'products/gb45.jfif'
+  },
+  {
+    id: 39,
+    name: 'SQB RED',
+    description: 'Metal gears, metal tube, Prime mag, high-end and upgradable, CNC Metal. Includes FREE Gel, 11V Battery charger (260fps).',
+    price: 7900,
+    unit: '+ shipping',
+    slug: 'AMMO',
+    image: 'products/gb46.jfif'
+  },
+  {
+    id: 40,
+    name: 'MK18 NYLON (MID END UNIT)',
+    description: 'Nylon body, nylon Gear, *Not upgradable (200fps).',
+    price: 1900,
+    unit: '+ shipping',
+    slug: 'AMMO',
+    image: 'products/gb47.jfif'
+  },
+  {
+    id: 41,
+    name: 'MK18 NYLON SAND (MID END UNIT)',
+    description: 'Nylon body, nylon Gear, *Not upgradable (200fps).',
+    price: 1900,
+    unit: '+ shipping',
+    slug: 'AMMO',
+    image: 'products/gb49.jfif'
+  },
+  {
+    id: 42,
+    name: 'AR (MID END UNIT)',
+    description: 'Nylon body, nylon Gear, *Not upgradable (200fps).',
+    price: 1900,
+    unit: '+ shipping',
+    slug: 'AMMO',
+    image: 'products/gb50.jfif'
+  },
+  {
+    id: 43,
+    name: 'TG HK416 BLOWBACK (MID END UNIT)',
+    description: 'Plastic Abs body, nylon Gear, *Not upgradable (200fps).',
+    price: 1650,
+    unit: '+ shipping',
+    slug: 'AMMO',
+    image: 'products/gb51.jfif'
+  },
+  {
+    id: 44,
+    name: 'TG HK416 BLOWBACK SAND (MID END UNIT)',
+    description: 'Plastic Abs body, nylon Gear, *Not upgradable (200fps).',
+    price: 1650,
+    unit: '+ shipping',
+    slug: 'AMMO',
+    image: 'products/gb53.jfif'
+  },
+  {
+    id: 45,
+    name: 'HK M16 SAND (MID END UNIT)',
+    description: 'Plastic Abs body, nylon Gear, *Not upgradable (200fps).',
+    price: 1650,
+    unit: '+ shipping',
+    slug: 'AMMO',
+    image: 'products/gb52.jfif'
+  },
+  {
+    id: 46,
+    name: 'HK M16 BLACK (MID END UNIT)',
+    description: 'Plastic Abs body, nylon Gear, *Not upgradable (200fps).',
+    price: 1650,
+    unit: '+ shipping',
+    slug: 'AMMO',
+    image: 'products/gb54.jfif'
+  },
+  {
+    id: 47,
+    name: 'JINGJI SLR V4',
+    description: 'Full metal gears, metal inner & outer barrel, metal tube, and Prime mag. High-end and fully upgradable. Includes FREE gel battery charger (260fps).',
+    price: 6900,
+    unit: '+ shipping',
+    slug: 'AMMO',
+    image: 'products/gb55.jfif'
+  },
+  {
+    id: 48,
+    name: 'JINGJI SLR V4 CLEAR',
+    description: 'Full metal gears, metal inner & outer barrel, metal tube, and Prime mag. High-end and fully upgradable. Includes FREE gel battery charger (260fps).',
+    price: 7900,
+    unit: '+ shipping',
+    slug: 'AMMO',
+    image: 'products/gb57.jfif'
+  },
+  {
+    id: 49,
+    name: 'TG F4 V1',
+    description: 'Nylon gear, Nylon Body. *Not upgradable (240fps).',
+    price: 7900,
+    unit: '+ shipping',
+    slug: 'AMMO',
+    image: 'products/gb58.jfif'
+  },
 ];
 
   scrollToOrder(): void {

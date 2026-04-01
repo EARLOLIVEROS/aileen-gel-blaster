@@ -32,11 +32,19 @@ nav {
   span { color: #fff; }
 }
 
+.logo-wrapper {
+  background-color: var(--green);
+  padding: 4px 10px;
+  clip-path: polygon(0 0, calc(100% - 8px) 0, 100% 8px, 100% 100%, 8px 100%, 0 calc(100% - 8px));
+  display: inline-flex;
+  align-items: center;
+}
+
 .logo-img {
-  height: 40px;
+  height: 32px;
   width: auto;
   object-fit: contain;
-  clip-path: polygon(0 0, calc(100% - 8px) 0, 100% 8px, 100% 100%, 8px 100%, 0 calc(100% - 8px));
+  display: block;
 }
 
 .nav-links {
