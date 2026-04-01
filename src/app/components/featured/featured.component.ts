@@ -457,9 +457,9 @@ export class FeaturedComponent {
   },
   {
     id: 49,
-    name: 'TG F4 V1',
+    name: 'TG F4 V1 (MID END UNIT)',
     description: 'Nylon gear, Nylon Body. *Not upgradable (240fps).',
-    price: 7900,
+    price: 2200,
     unit: '+ shipping',
     slug: 'AMMO',
     image: 'products/gb58.jfif'
