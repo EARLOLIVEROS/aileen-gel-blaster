@@ -117,7 +117,7 @@ export class FeaturedComponent {
     id: 12,
     name: 'TG MCX V2',
     description: 'Metal gears, metal inner/outer Barrel, metal tube, Pressure spring prime mag, high-end and upgradable. Includes FREE Gel, Battery charger, holo sight, and Metal muzzle (260fps).',
-    price: 3600,
+    price: 3800,
     unit: '+ shipping',
     slug: 'AMMO',
     image: 'products/gb5.jfif'
@@ -135,7 +135,7 @@ export class FeaturedComponent {
     id: 14,
     name: 'CYMMA MP5 V2',
     description: 'Metal gears, metal inner/outer Barrel, metal tube, Prime mag, high-end and upgradable. Includes FREE Gel, Battery charger, Extra Butt and Round Mag (240fps).',
-    price: 3600,
+    price: 5500,
     unit: '+ shipping',
     slug: 'AMMO',
     image: 'products/gb7.jfif'
