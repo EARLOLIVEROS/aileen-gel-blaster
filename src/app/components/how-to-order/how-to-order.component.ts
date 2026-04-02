@@ -17,6 +17,11 @@ interface Step {
 export class HowToOrderComponent {
   // TODO: Replace with actual Facebook page Messenger link
   messengerUrl = 'https://www.facebook.com/share/173cq6yAm4/';
+  tiktokUrl = 'https://www.tiktok.com/@aileengelblaster05?_r=1&_t=ZS-95CyhVW52Q8';
+
+openTiktok(): void {
+  window.open(this.tiktokUrl, '_blank');
+}
 
   steps: Step[] = [
     {

@@ -6,6 +6,7 @@ import { MarqueeComponent } from '../../components/marquee/marquee.component';
 import { ProductsComponent } from '../../components/products/products.component';
 import { FeaturedComponent } from '../../components/featured/featured.component';
 import { WhyUsComponent } from '../../components/why-us/why-us.component';
+import { FaqComponent } from '../../components/faq/faq.component';
 import { HowToOrderComponent } from '../../components/how-to-order/how-to-order.component';
 import { FooterComponent } from '../../components/footer/footer.component';
 
@@ -20,6 +21,7 @@ import { FooterComponent } from '../../components/footer/footer.component';
     ProductsComponent,
     FeaturedComponent,
     WhyUsComponent,
+    FaqComponent,
     HowToOrderComponent,
     FooterComponent,
   ],

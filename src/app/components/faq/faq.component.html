@@ -1,0 +1,21 @@
+<section class="faq" id="faq">
+  <div class="section-inner">
+    <p class="section-tag">⬡ Got Questions?</p>
+    <h2 class="section-title">FAQ</h2>
+    <div class="section-divider"></div>
+
+    <div class="faq-list">
+      @for (item of items; track item.question) {
+        <div class="faq-item" [class.open]="item.open" (click)="toggle(item)">
+          <div class="faq-header">
+            <span class="faq-question">{{ item.question }}</span>
+            <span class="faq-icon">{{ item.open ? '−' : '+' }}</span>
+          </div>
+          <div class="faq-body">
+            <p>{{ item.answer }}</p>
+          </div>
+        </div>
+      }
+    </div>
+  </div>
+</section>

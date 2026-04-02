@@ -92,6 +92,35 @@ p {
   }
 }
 
+.tt-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  background: #003314;
+  color: #fff;
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding: 16px 36px;
+  border: none;
+  cursor: pointer;
+  clip-path: polygon(0 0, calc(100% - 12px) 0, 100% 12px, 100% 100%, 12px 100%, 0 calc(100% - 12px));
+  transition: opacity 0.2s, transform 0.15s;
+
+  &:hover {
+    opacity: 0.85;
+    transform: scale(1.03);
+  }
+}
+
+.tt-icon {
+  width: 22px;
+  height: 22px;
+  fill: #fff;
+}
+
 .fb-icon {
   width: 22px;
   height: 22px;
@@ -138,3 +167,12 @@ p {
     padding: 14px 20px;
   }
 }
+
+.contact-btns {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+
