@@ -117,7 +117,7 @@ export class FeaturedComponent {
     id: 12,
     name: 'TG MCX V2',
     description: 'Metal gears, metal inner/outer Barrel, metal tube, Pressure spring prime mag, high-end and upgradable. Includes FREE Gel, Battery charger, holo sight, and Metal muzzle (260fps).',
-    price: 3800,
+    price: 3600,
     unit: '+ shipping',
     slug: 'AMMO',
     image: 'products/gb5.jfif'
@@ -126,7 +126,7 @@ export class FeaturedComponent {
     id: 13,
     name: 'TG MCX V2 METAL MAG',
     description: 'Metal gears, metal inner/outer Barrel, metal tube, Metal prime mag, high-end and upgradable. Includes FREE Gel, Battery charger, holo sight, and Metal muzzle (260fps).',
-    price: 3600,
+    price: 3800,
     unit: '+ shipping',
     slug: 'AMMO',
     image: 'products/gb31.jfif'
