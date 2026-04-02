@@ -63,7 +63,7 @@ export class FeaturedComponent {
     id: 6,
     name: 'BOHAN AR SNIPER',
     description: 'Metal gears, metal inner and outer barrel, and blowback.Includes Metal muzzle. Upgradable unit with gel battery charger (240fps).',
-    price: 8900,
+    price: 3800,
     unit: '+ shipping',
     slug: 'AMMO',
     image: 'products/gb1.jfif'
@@ -358,7 +358,7 @@ export class FeaturedComponent {
   },
   {
     id: 38,
-    name: 'SQB GREEN',
+    name: 'SQB RED',
     description: 'Metal gears, metal tube, Prime mag, high-end and upgradable, CNC Metal. Includes FREE Gel, 11V Battery charger (260fps).',
     price: 7900,
     unit: '+ shipping',
@@ -367,7 +367,7 @@ export class FeaturedComponent {
   },
   {
     id: 39,
-    name: 'SQB RED',
+    name: 'SQB GREEN',
     description: 'Metal gears, metal tube, Prime mag, high-end and upgradable, CNC Metal. Includes FREE Gel, 11V Battery charger (260fps).',
     price: 7900,
     unit: '+ shipping',
@@ -463,6 +463,123 @@ export class FeaturedComponent {
     unit: '+ shipping',
     slug: 'AMMO',
     image: 'products/gb58.jfif'
+  },
+  {
+    id: 50,
+    name: 'LEHUI MCX (MID END UNIT)',
+    description: 'Nylon gear, Nylon Body. *Not upgradable. Free Tracer (200fps).',
+    price: 1900,
+    unit: '+ shipping',
+    slug: 'AMMO',
+    image: 'products/gb59.jfif'
+  },
+  {
+    id: 51,
+    name: 'LEHUI ARP 9 (MID END UNIT)',
+    description: 'Nylon gear, Nylon Body. *Not upgradable. Free Tracer(200fps).',
+    price: 1900,
+    unit: '+ shipping',
+    slug: 'AMMO',
+    image: 'products/gb60.jfif'
+  },
+  {
+    id: 52,
+    name: 'LEHUI VECTOR (MID END UNIT)',
+    description: 'Nylon gear, Nylon Body. *Not upgradable. Free Tracer(200fps).',
+    price: 1900,
+    unit: '+ shipping',
+    slug: 'AMMO',
+    image: 'products/gb63.jfif'
+  },
+  {
+    id: 53,
+    name: 'LEHUI X95 (MID END UNIT)',
+    description: 'Nylon gear, Nylon Body. *Not upgradable. Free Tracer(200fps).',
+    price: 1900,
+    unit: '+ shipping',
+    slug: 'AMMO',
+    image: 'products/gb68.jfif'
+  },
+  {
+    id: 54,
+    name: 'LEHUI MPX (MID END UNIT)',
+    description: 'Nylon gear, Nylon Body. *Not upgradable. Free Tracer(200fps).',
+    price: 1900,
+    unit: '+ shipping',
+    slug: 'AMMO',
+    image: 'products/gb70.jfif'
+  },
+  {
+    id: 55,
+    name: 'HD TEC9 (MID END UNIT)',
+    description: 'Nylon gear, Nylon Body. *Not upgradable. Free Tracer(200fps).',
+    price: 1200,
+    unit: '+ shipping',
+    slug: 'AMMO',
+    image: 'products/gb61.jfif'
+  },
+  {
+    id: 56,
+    name: 'HD ACE 21N (MID END UNIT)',
+    description: 'Nylon gear, Nylon Body. *Not upgradable. Free Tracer(200fps).',
+    price: 1300,
+    unit: '+ shipping',
+    slug: 'AMMO',
+    image: 'products/gb65.jfif'
+  },
+  {
+    id: 57,
+    name: 'HD ACE 21N (MID END UNIT)',
+    description: 'Nylon gear, Nylon Body. *Not upgradable. Free Tracer(200fps).',
+    price: 1300,
+    unit: '+ shipping',
+    slug: 'AMMO',
+    image: 'products/gb65.jfif'
+  },
+  {
+    id: 58,
+    name: 'HD SLR 5.0 (MID END UNIT)',
+    description: 'Nylon gear, Nylon Body. *Not upgradable. Free Tracer(200fps).',
+    price: 1500,
+    unit: '+ shipping',
+    slug: 'AMMO',
+    image: 'products/gb62.jfif'
+  },
+  {
+    id: 59,
+    name: 'HD N4 (MID END UNIT)',
+    description: 'Nylon gear, Nylon Body. *Not upgradable. Free Tracer(200fps).',
+    price: 1500,
+    unit: '+ shipping',
+    slug: 'AMMO',
+    image: 'products/gb71.jfif'
+  },
+  {
+    id: 60,
+    name: 'HD UMP 45 (MID END UNIT)',
+    description: 'Nylon gear, Nylon Body. *Not upgradable. Free Tracer(200fps).',
+    price: 2000,
+    unit: '+ shipping',
+    slug: 'AMMO',
+    image: 'products/gb66.jfif'
+  },
+  {
+    id: 61,
+    name: 'HD AUG (MID END UNIT)',
+    description: 'Nylon gear, Nylon Body. *Not upgradable. Free Tracer(200fps).',
+    price: 1500,
+    unit: '+ shipping',
+    slug: 'AMMO',
+    image: 'products/gb67.jfif'
+  },
+  {
+    id: 62,
+    name: 'HD CPE3 (MID END UNIT)',
+    description: 'Nylon gear, Nylon Body. *Not upgradable. Free Tracer(200fps).',
+    price: 1300,
+    unit: '+ shipping',
+    slug: 'AMMO',
+    image: 'products/gb69.jfif'
   },
 ];
 
