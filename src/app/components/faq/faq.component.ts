@@ -48,12 +48,17 @@ export class FaqComponent {
     },
     {
       question: 'May warranty ba ang mga produkto niyo?',
-      answer: 'Oo, lahat ng aming gel blasters ay may 3-month warranty laban sa manufacturing defects. Kung may issue sa inyong unit, i-message lang kami agad para ma-assist namin kayo. Ang warranty ay hindi sakop ang damage na dulot ng misuse o normal wear and tear.',
+      answer: 'Oo, lahat ng aming gel blasters ay may 4 - days na palugit para ma return ang product. Kung may issue sa inyong unit, i-message lang kami agad para ma-assist namin kayo. Ang warranty ay hindi sakop ang damage na dulot ng misuse o normal wear and tear.',
       open: false
     },
     {
       question: 'Paano ang tamang pag babad ng hard gel?',
-      answer: 'Para magbabad ng hard gel, ilagay ang mga gel balls sa isang clean container at punuin ito ng malinis na tubig. Hayaan itong magbabad ng 4-6 hours o hanggang sa lumaki ang mga gel balls. Siguraduhing hindi lalampas sa recommended soaking time para maiwasan ang over-soaking, na maaaring magdulot ng sobrang lambot ng gel balls.',
+      answer: 'Para magbabad ng hard gel, ilagay ang mga gel balls sa isang clean container at punuin ito ng malinis na tubig. Hayaan itong magbabad ng 4-6 hours o hanggang sa lumaki ang mga gel balls. Siguraduhing hindi lalampas sa recommended soaking time para maiwasan ang oversized ng mga gel balls na mag cacause ng pag ka jam sa mga units nyo.',
+      open: false
+    },
+    {
+      question: 'Tinetest ba ang mga unit bago i deliver?',
+      answer: 'lahat ng unit tinetest bago i ship kung sakaling depekto during shipment makipag ugnayan sa amin agad wag kalimutan mag video ng unboxing',
       open: false
     },
   ];
