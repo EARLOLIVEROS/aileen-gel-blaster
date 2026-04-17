@@ -1,0 +1,33 @@
+<section class="accessories" id="accessories">
+  <div class="section-inner">
+    <p class="section-tag">⬡ Gear Up</p>
+    <h2 class="section-title">Accessories</h2>
+    <div class="section-divider"></div>
+
+    <div class="accessories-grid">
+      @for (item of accessories; track item.id) {
+        <div class="accessories-card">
+          <div class="accessories-img">
+            @if (item.image) {
+              <img [src]="item.image" [alt]="item.name" class="product-img" />
+            } @else {
+              <div class="accessories-img-slug">{{ item.slug }}</div>
+            }
+            @if (item.tag) {
+              <div class="accessories-tag">{{ item.tag }}</div>
+            }
+          </div>
+          <div class="accessories-body">
+            <h3>{{ item.name }}</h3>
+            <p>{{ item.description }}</p>
+            <div class="accessories-price">
+              ₱{{ item.price | number }}
+              <span>{{ item.unit }}</span>
+            </div>
+            <button class="order-btn" (click)="scrollToOrder()">Order Now →</button>
+          </div>
+        </div>
+      }
+    </div>
+  </div>
+</section>

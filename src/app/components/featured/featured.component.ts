@@ -14,7 +14,7 @@ export class FeaturedComponent {
   {
     id: 1,
     name: 'Cyma m4 v2 High-End Unit',
-    description: 'Full metal gears, metal inner & outer barrel, and metal tube for durability. High-end metal mag, fully upgradable. Includes FREE gel battery charger (240fps).',
+    description: 'Full metal gears, metal inner & outer barrel, and metal tube for durability, fully upgradable. Includes FREE gel battery charger (240fps).',
     price: 3500,
     unit: '+ shipping',
     tag: 'Hot',

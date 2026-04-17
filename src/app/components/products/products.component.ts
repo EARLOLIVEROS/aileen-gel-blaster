@@ -16,25 +16,34 @@ export class ProductsComponent {
       title: 'Gel Blaster Guns',
       description: 'Full-auto, semi-auto, pistols, rifles, and sniper-style blasters. Multiple brands and models available.',
       badge: 'Bestseller',
-      icon: 'gun'
+      icon: 'gun',
+      targetId: 'featured'
     },
     {
       id: 2,
       title: 'Gel Ammo & Balls',
       description: 'High-quality water-gel beads in different sizes. Bulk packs available for extended gameplay sessions.',
-      icon: 'ammo'
+      icon: 'ammo',
+      targetId: 'featured'
     },
     {
       id: 3,
       title: 'Tactical Gear',
       description: 'Vests, holsters, magazines, scopes, and accessories to complete your full loadout.',
-      icon: 'gear'
+      icon: 'gear',
+      targetId: 'accessories'
     },
     {
       id: 4,
       title: 'Spare Parts',
       description: 'Motors, springs, gearboxes, barrels, nozzles, and more. Keep your blaster at peak performance.',
-      icon: 'parts'
+      icon: 'parts',
+      targetId: 'accessories'
     }
   ];
+
+  scrollToSection(targetId: string): void {
+    const el = document.getElementById(targetId);
+    if (el) el.scrollIntoView({ behavior: 'smooth' });
+  }
 }

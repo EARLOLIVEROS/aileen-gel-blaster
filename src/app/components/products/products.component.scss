@@ -17,6 +17,8 @@
   overflow: hidden;
   transition: border-color 0.2s, transform 0.2s;
   cursor: default;
+  display: flex;
+  flex-direction: column;
 
   &::before {
     content: '';
@@ -36,7 +38,14 @@
     transform: translateY(-4px);
 
     &::before { transform: scaleX(1); }
+
+    .card-cta { opacity: 1; transform: translateX(0); }
   }
+}
+
+// clickable cursor for cards with targetId
+.product-card.clickable {
+  cursor: pointer;
 }
 
 .product-badge {
@@ -85,6 +94,21 @@ p {
   font-size: 0.88rem;
   color: var(--muted);
   line-height: 1.65;
+  flex: 1;
+}
+
+.card-cta {
+  display: inline-block;
+  margin-top: 16px;
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--green);
+  opacity: 0;
+  transform: translateX(-6px);
+  transition: opacity 0.2s, transform 0.2s;
 }
 
 @media (max-width: 768px) {
@@ -99,5 +123,11 @@ p {
 
   .product-card {
     padding: 24px 20px;
+  }
+
+  // always show cta on mobile (no hover)
+  .card-cta {
+    opacity: 1;
+    transform: translateX(0);
   }
 }

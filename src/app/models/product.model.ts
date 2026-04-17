@@ -5,7 +5,7 @@ export interface Product {
   price: number;
   unit: string;
   tag?: string;
-  slug: string; // e.g. 'M4A1', 'AKM'
+  slug: string;
   image?: string;
 }
 
@@ -15,4 +15,5 @@ export interface ProductCategory {
   description: string;
   badge?: string;
   icon: 'gun' | 'ammo' | 'gear' | 'parts';
+  targetId?: string;
 }

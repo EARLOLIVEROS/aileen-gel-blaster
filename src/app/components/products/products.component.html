@@ -6,7 +6,7 @@
 
     <div class="product-grid">
       @for (cat of categories; track cat.id) {
-        <div class="product-card">
+        <div class="product-card clickable" (click)="scrollToSection(cat.targetId || '')">
           @if (cat.badge) {
             <div class="product-badge">{{ cat.badge }}</div>
           }
@@ -30,6 +30,7 @@
           </div>
           <h3>{{ cat.title }}</h3>
           <p>{{ cat.description }}</p>
+          <span class="card-cta">View Products →</span>
         </div>
       }
     </div>
