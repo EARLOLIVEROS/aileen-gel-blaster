@@ -48,7 +48,7 @@ export class AccessoriesComponent {
       id: 4,
       name: 'Eotech 558 Metal Adjustable',
       description: '',
-      price: 600,
+      price: 2600,
       unit: '+ shipping',
       tag: 'New',
       slug: 'SIGHT',
